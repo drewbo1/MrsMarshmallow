@@ -782,13 +782,13 @@ $mail = new PHPMailer();
 $mail->IsSMTP();                                      // set mailer to use SMTP
 $mail->Host = "localhost";  // specify main and backup server
 $mail->SMTPAuth = true;     // turn on SMTP authentication
-$mail->Username = "cakeenquiry@mrsmarshmallow.co.uk";  // SMTP username
-$mail->Password = "IczEtXxg5Iq7"; // SMTP password
+$mail->Username = "";  // SMTP username
+$mail->Password = ""; // SMTP password
 
-$mail->From = "cakeenquiry@mrsmarshmallow.co.uk";
+$mail->From = "";
 $mail->FromName = "Cake enquiry";
 
-$mail->AddAddress("naomi.marshall@mrsmarshmallow.co.uk");                  // name is optional
+$mail->AddAddress("");                  // name is optional
 $mail->AddAddress($emailAddress);
 
 $mail->WordWrap = 50;                                 // set word wrap to 50 characters
