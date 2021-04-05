@@ -1,6 +1,6 @@
 <?php include_once("../inc/header.php"); ?>
 
-    <title>Mrs Marshmallow | Make an enquiry</title>
+    <title>Mrs Marshmallow| Make an enquiry</title>
 
 	     <script>function myfunction() {
     var x = document.getElementById("enquirySelect").selectedIndex;
