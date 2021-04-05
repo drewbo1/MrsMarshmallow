@@ -1,0 +1,191 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+  padding-bottom: 2rem;
+  color: #5a5a5a;
+}
+h1 {
+  font-family: 'Cormorant Upright', serif;
+  font-size: 4rem;
+  
+}
+h2 {
+  font-family: 'Cormorant Upright', serif;
+  font-size: 3rem;
+  
+}
+h3 {
+  font-family: 'Cormorant Upright', serif;
+  font-size: 2rem;
+  
+}
+h4 {
+  font-family: 'Cormorant Upright', serif;
+  font-size: 1.5rem
+  
+}
+h5 {
+  font-family: 'Cormorant Upright', serif;
+  font-size: 1.25rem;
+  
+}
+p {
+	font-family: 'Cormorant Upright', serif;
+	font-size: 1rem;
+}
+
+.navbar li {
+    padding-left: 20px;
+}
+
+
+
+.hero-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../Images/cupcakes.jpg");
+
+  /* Set a specific height */
+  height: 100vh;
+  
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-image-2 {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../Images/closed.jpg");
+
+  /* Set a specific height */
+  height: 100vh;
+  
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-weight: bold;
+}
+
+
+/* Services */
+
+.services-heading {
+    text-align: center;
+    margin: 3rem;
+    
+}
+
+.services-image {
+    margin: 2rem;
+}
+
+/* About */
+
+.about-header {
+    text-align: center;
+    margin: 3rem;
+}
+
+.about-heading {
+    text-align: center;
+    padding: 5rem ;
+}
+
+.about-image {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-bottom: 5rem;
+
+}
+
+/* Gallery */
+
+.gallery-heading {
+   text-align: center;
+    padding: 2rem ; 
+}
+
+.gallery-subheading {
+    text-align: center;
+    padding: 2rem ;
+}
+
+/* Info */
+
+.info-heading {
+    text-align: center;
+    padding: 2rem ;
+}
+
+.info-subheading {
+    text-align: center;
+    padding: 1.5rem ;
+}
+
+.side-info {
+    text-align: center;
+    padding-top: 3rem ;
+}
+
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: normal;
+}
+.marketing .col-lg-4 p {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+
+
+/* Section */
+
+.section {
+   min-height: 80vh;
+}
+
+/* Footer */
+
+.footer {
+  
+    display: block;
+    text-align: center;
+    background-color: #ebf4f6;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  
+
+
+
+
+
+
